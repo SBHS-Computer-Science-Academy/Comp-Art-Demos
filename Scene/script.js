@@ -1,6 +1,13 @@
 // Each name should be in the format "Stu1, Stu2, and Stu3" with an optional URL
 var names = [
-    ["Scene", "Scene/images/Lily"], 
+    ["Emilio", "https://www.sbhscs.org"], 
+    ["Itzel", "https://www.sbhscs.org"], 
+    ["Karl", "https://www.sbhscs.org"], 
+    ["Kaya", "https://www.sbhscs.org"], 
+    ["Lily", "https://codehs.com/share/id/14-scene-lab-Opry9k/run"], 
+    ["Maddie", "https://www.sbhscs.org"], 
+    ["Shae", "https://www.sbhscs.org"], 
+
 ];
 
 var gridWidth = 4;
@@ -31,13 +38,9 @@ function makeCard() {
     	fileUrl = names[idx][1];
     }
     var file = name.replaceAll(" ","").replaceAll(",","").replace("and","");
-    var imageName = file + ".png";
+    var imageName = file + ".png"
     
-    if (fileUrl != "") {
-	    file = fileUrl;
-	    imageName = file + ".png";
-	    file = name + "/index.html";
-	}
+    if (fileUrl != "") file = fileUrl;
     var card = generateCard(name, imageName, name, file);
     gridHtml += card; //not elegant, but it works
     
