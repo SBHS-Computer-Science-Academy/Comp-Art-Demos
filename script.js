@@ -1,6 +1,6 @@
 // Each name should be in the format "Stu1, Stu2, and Stu3" with an optional URL
 var names = [
-    ["Scene", "Scene/images/Lily"], 
+    ["Scene", "Scene/images/Lily.png"], 
 ];
 
 var gridWidth = 4;
@@ -30,14 +30,9 @@ function makeCard() {
     	name = names[idx][0];
     	fileUrl = names[idx][1];
     }
-    var file = name.replaceAll(" ","").replaceAll(",","").replace("and","");
-    var imageName = file + ".png";
-    
-    if (fileUrl != "") {
-	    file = fileUrl;
-	    imageName = file + ".png";
-	    file = name + "/index.html";
-	}
+    var file = name.replaceAll(" ","").replaceAll(",","").replace("and","") + "/index.html";
+    var imageName = fileUrl;
+	
     var card = generateCard(name, imageName, name, file);
     gridHtml += card; //not elegant, but it works
     
