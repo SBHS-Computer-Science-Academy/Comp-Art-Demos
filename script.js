@@ -1,6 +1,12 @@
-// Each name should be in the format "Stu1, Stu2, and Stu3" with an optional URL
+// TOP LEVEL SCRIPT
+// names are ["project", "pathToImage"]
 var names = [
-    ["Scene", "Scene/images/Lily.png"], 
+    ["Portrait", "Portrait/images/Lily.png"],
+    ["Scene", "Scene/images/Lily.png"],
+    ["Project", "Project/images/Lily.png"],
+    ["Project", "Project/images/Lily.png"],
+    ["Project", "Project/images/Lily.png"],
+    ["Project", "Project/images/Lily.png"],
 ];
 
 var gridWidth = 4;
