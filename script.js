@@ -1,8 +1,8 @@
 // TOP LEVEL SCRIPT
 // names are ["project", "pathToImage"]
 var names = [
-    ["Portrait", "/Comp-Art-Demos/Portrait/images/Lily.png"],
-    ["Scene", "/Comp-Art-Demos/Scene/images/Lily.png"],
+    ["Portrait", "Portrait/images/Lily.png"],
+    ["Scene", "Scene/images/Lily.png"],
     ["Project", "Project/images/Lily.png"],
     ["Project", "Project/images/Lily.png"],
     ["Project", "Project/images/Lily.png"],
@@ -23,7 +23,7 @@ function generateCard(names, imageName, altText, url)
     + url
     + '" target="_blank" rel="noopener noreferrer"> <img src='
     + imageName
-    + '" alt="'
+    + ' alt="'
     + altText
     + '" class="screenshots"> </a> </p> </div> </div>';
 }
