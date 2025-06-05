@@ -1,8 +1,8 @@
 // TOP LEVEL SCRIPT
 // names are ["project", "pathToImage"]
 var names = [
-    ["Portrait", "Portrait/images/Lily.png"],
-    ["Scene", "Scene/images/Lily.png"],
+    ["Portrait", "/Comp-Art-Demos/Portrait/images/Lily.png"],
+    ["Scene", "/Comp-Art-Demos/Scene/images/Lily.png"],
     ["Project", "Project/images/Lily.png"],
     ["Project", "Project/images/Lily.png"],
     ["Project", "Project/images/Lily.png"],
