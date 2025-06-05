@@ -21,9 +21,9 @@ function generateCard(names, imageName, altText, url)
     + names
     + '</h5> <p class="card-text"> <a href="'
     + url
-    + '" target="_blank" rel="noopener noreferrer"> <img src='
+    + '" target="_blank" rel="noopener noreferrer"> <img src="'
     + imageName
-    + ' alt="'
+    + '" alt="'
     + altText
     + '" class="screenshots"> </a> </p> </div> </div>';
 }
